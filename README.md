@@ -67,9 +67,13 @@ Below are the additional columns/measures I should create to start analyses.
         *	 Growth segmentation.
 
 Power BI Dashboard Created:
+
 Page 1 — Dashboard Overview
+
 Purpose: High-level summary of the dataset
+
 KPI Cards (Top Row)
+
 Show quick insights.
 *	Total Schemes
 *	Average 1Y CAGR
