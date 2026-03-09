@@ -54,7 +54,7 @@ Below are the additional columns/measures I should create to start analyses.
     *	NAV distribution visuals.
 *	Rating Category
   *	Purpose:
-    *	Rating comparis8n analysis.
+    *	Rating comparison analysis.
 *	Rank by 3Y Return
 *	Rank by Expense Ratio
 *	Rank by Performance Score
@@ -67,7 +67,7 @@ Below are the additional columns/measures I should create to start analyses.
     *	Growth segmentation.
 
 Power BI Dashboard Created:
-Page 1 — Dashboard *verview
+Page 1 — Dashboard Overview
 Purpose: High-level summary of the dataset
 KPI Cards (Top Row)
 Show quick insights.
@@ -103,7 +103,7 @@ Y-axis: Count of Schemes
 ________________________________________
 Filters (Left Side)
 Slicers:
-*	Categ*ry
+*	Category
 *	Type
 *	Rating
 *	Benchmark
@@ -118,7 +118,7 @@ Values:
 *	CAGR 1Y
 *	CAGR 3Y
 ________________________________________
-2 Return C*nsistency
+2 Return Consistency
 Chart: Scatter Plot
 X-axis:
 CAGR 6M
