@@ -21,50 +21,50 @@ My current columns are:
 *	SIP Min. Inv.(Rs.)
 Below are the additional columns/measures I should create to start analyses.
 *	Performance Score
-   *	Purpose:
-     *	Ranking best funds overall
-     *	Fund screener page
+     *	Purpose:
+        *	 Ranking best funds overall
+        *	 Fund screener page
 *	Return Stability
-   *	Purpose:
-     *	Identify consistent performers
-     *	Lower value = stable performance
+     *	Purpose:
+        *	 Identify consistent performers
+        *	 Lower value = stable performance
 *	Momentum
-   *	Purpose:
-     *	Detect funds are gaining momentum recently
+     *	Purpose:
+        *	 Detect funds are gaining momentum recently
 *	Return Efficiency
-   *	Purpose:
-     *	Measure the return generated per unit cost
-     *	Very useful visual:
+    *	Purpose:
+        *	 Measure the return generated per unit cost
+        *	 Very useful visual:
       Expense vs Return efficiency.
 *	Cost Category
-   *	Purpose:
-     *	Cost distribution visuals
-     *	Cost comparison charts
+     *	Purpose:
+        *	 Cost distribution visuals
+        *	 Cost comparison charts
 *	Affordability Score
-   *	Purpose:
-     *	Find high-return funds with a low entry barrier.
+     *	Purpose:
+        *	 Find high-return funds with a low entry barrier.
 *	SIP Friendliness
-   *	Purpose:
-     *	Investor accessibility analysis.
+     *	Purpose:
+        *	 Investor accessibility analysis.
 *	Investment Size Category
-   *	Purpose:
-     *	Investment accessibility visuals.
+     *	Purpose:
+        *	 Investment accessibility visuals.
 *	NAV Range
-   *	Purpose:
-     *	NAV distribution visuals.
+     *	Purpose:
+        *	 NAV distribution visuals.
 *	Rating Category
-   *	Purpose:
-     *	Rating comparison analysis.
+     *	Purpose:
+        *	 Rating comparison analysis.
 *	Rank by 3Y Return
 *	Rank by Expense Ratio
 *	Rank by Performance Score
 *	Return Variation
-   *	Purpose:
-     *	Approximate return consistency.
-     *	Lower = stable fund.
+     *	Purpose:
+        *	 Approximate return consistency.
+        *	 Lower = stable fund.
 *	Performance Category
-   *	Purpose:
-     *	Growth segmentation.
+     *	Purpose:
+        *	 Growth segmentation.
 
 Power BI Dashboard Created:
 Page 1 — Dashboard Overview
