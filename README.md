@@ -3,7 +3,7 @@ Fund Analysis for the Mutual funds in the market (2000+). Fund analysis by clean
 
 DATA SET FROM:  HTTPS://WWW.KAGGLE.CoM/DATASETS/ASHISHRAUT64/MUTUAL-FUNDS-INDIA
 
-Creating Derived C*lumns
+Creating Derived Columns
 I’ll need to create several derived (calculated) columns or measures from my existing columns.
 My current columns are:
 *	S.no
@@ -13,7 +13,7 @@ My current columns are:
 *	Benchmark
 *	Rating
 *	Net_Asset_Value(Rs.)
-*	CAGR% 6 M*nths
+*	CAGR% 6 Months
 *	CAGR% 1 Year
 *	CAGR% 3 Year
 *	Min. Invest(Rs.)
@@ -21,50 +21,50 @@ My current columns are:
 *	SIP Min. Inv.(Rs.)
 Below are the additional columns/measures I should create to start analyses.
 *	Performance Score
-  *	Purpose:
-    *	Ranking best funds overall
-    *	Fund screener page
+   *	Purpose:
+     *	Ranking best funds overall
+     *	Fund screener page
 *	Return Stability
-  *	Purpose:
-    *	Identify consistent performers
-    *	Lower value = stable performance
-*	M*mentum
-  *	Purpose:
-    *	Detect funds are gaining momentum recently
+   *	Purpose:
+     *	Identify consistent performers
+     *	Lower value = stable performance
+*	Momentum
+   *	Purpose:
+     *	Detect funds are gaining momentum recently
 *	Return Efficiency
-  *	Purpose:
-    *	Measure the return generated per unit cost
-    *	Very useful visual:
+   *	Purpose:
+     *	Measure the return generated per unit cost
+     *	Very useful visual:
       Expense vs Return efficiency.
 *	Cost Category
-  *	Purpose:
-    *	Cost distribution visuals
-    *	Cost comparison charts
+   *	Purpose:
+     *	Cost distribution visuals
+     *	Cost comparison charts
 *	Affordability Score
-  *	Purpose:
-    *	Find high-return funds with a low entry barrier.
+   *	Purpose:
+     *	Find high-return funds with a low entry barrier.
 *	SIP Friendliness
-  *	Purpose:
-    *	Investor accessibility analysis.
+   *	Purpose:
+     *	Investor accessibility analysis.
 *	Investment Size Category
-  *	Purpose:
-    *	Investment accessibility visuals.
+   *	Purpose:
+     *	Investment accessibility visuals.
 *	NAV Range
-  *	Purpose:
-    *	NAV distribution visuals.
+   *	Purpose:
+     *	NAV distribution visuals.
 *	Rating Category
-  *	Purpose:
-    *	Rating comparison analysis.
+   *	Purpose:
+     *	Rating comparison analysis.
 *	Rank by 3Y Return
 *	Rank by Expense Ratio
 *	Rank by Performance Score
 *	Return Variation
-  *	Purpose:
-    *	Approximate return consistency.
-    *	Lower = stable fund.
+   *	Purpose:
+     *	Approximate return consistency.
+     *	Lower = stable fund.
 *	Performance Category
-  *	Purpose:
-    *	Growth segmentation.
+   *	Purpose:
+     *	Growth segmentation.
 
 Power BI Dashboard Created:
 Page 1 — Dashboard Overview
@@ -85,23 +85,32 @@ Visuals
 Shows market share of fund categories.
 ________________________________________
 2 Top 10 Performing Funds (3-Year CAGR)
+
 Chart: Bar chart
+
 Columns:
 *	Scheme
 *	CAGR 3 Year
 Sort descending.
 ________________________________________
 2 Average Returns by Category
+
 Chart: Clustered bar
+
 X-axis: Category
+
 Y-axis: Avg CAGR 1Y / Avg CAGR 3Y
 ________________________________________
 4 Ratings Distribution
+
 Chart: Column chart
+
 X-axis: Rating
+
 Y-axis: Count of Schemes
 ________________________________________
 Filters (Left Side)
+
 Slicers:
 *	Category
 *	Type
@@ -109,37 +118,58 @@ Slicers:
 *	Benchmark
 ________________________________________
 Page 2 — Performance Analysis
+
 Purpose: Deep dive into returns
+
 1 CAGR Comparison
+
 Chart: Clustered bar
+
 Axis: Scheme
+
 Values:
 *	CAGR 6M
 *	CAGR 1Y
 *	CAGR 3Y
 ________________________________________
 2 Return Consistency
+
 Chart: Scatter Plot
+
 X-axis:
+
 CAGR 6M
+
 Y-axis:
+
 CAGR 3Y
+
 Legend:
+
 Category
+
 This shows:
 *	short-term outperformers
 *	long-term stable funds
 ________________________________________
 3 Top vs Bottom Performers
+
 Two visuals:
+
 Top 10 funds by 3Y CAGR
+
 Bottom 10 funds by 3Y CAGR
 ________________________________________
 4 Category Performance Heatmap
+
 Matrix:
+
 Rows:
+
 Category
+
 Columns:
+
 Return Period
 *	6M
 *	1Y
