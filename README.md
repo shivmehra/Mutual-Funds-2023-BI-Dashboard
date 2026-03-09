@@ -1,94 +1,94 @@
-# Mutual-Funds-2023-BI-Dashboard
+# Mutual-Funds-2023-BI-Dashb*ard
 Fund Analysis for the Mutual funds in the market (2000+). Fund analysis by cleaning data and building a data model in Power BI, to create a Dashboard.
 
-DATA SET FROM:  HTTPS://WWW.KAGGLE.COM/DATASETS/ASHISHRAUT64/MUTUAL-FUNDS-INDIA
+DATA SET FROM:  HTTPS://WWW.KAGGLE.CoM/DATASETS/ASHISHRAUT64/MUTUAL-FUNDS-INDIA
 
-Creating Derived Columns
+Creating Derived C*lumns
 I’ll need to create several derived (calculated) columns or measures from my existing columns.
 My current columns are:
-•	S.no
-•	Scheme
-•	Category
-•	Type
-•	Benchmark
-•	Rating
-•	Net_Asset_Value(Rs.)
-•	CAGR% 6 Months
-•	CAGR% 1 Year
-•	CAGR% 3 Year
-•	Min. Invest(Rs.)
-•	Exp. Ratio(%)
-•	SIP Min. Inv.(Rs.)
+*	S.no
+*	Scheme
+*	Category
+*	Type
+*	Benchmark
+*	Rating
+*	Net_Asset_Value(Rs.)
+*	CAGR% 6 M*nths
+*	CAGR% 1 Year
+*	CAGR% 3 Year
+*	Min. Invest(Rs.)
+*	Exp. Ratio(%)
+*	SIP Min. Inv.(Rs.)
 Below are the additional columns/measures I should create to start analyses.
-•	Performance Score
-  o	Purpose:
-    	Ranking best funds overall
-    	Fund screener page
-•	Return Stability
-  o	Purpose:
-    	Identify consistent performers
-    	Lower value = stable performance
-•	Momentum
-  o	Purpose:
-    	Detect funds are gaining momentum recently
-•	Return Efficiency
-  o	Purpose:
-    	Measure the return generated per unit cost
-    	Very useful visual:
+*	Performance Score
+  *	Purpose:
+    *	Ranking best funds overall
+    *	Fund screener page
+*	Return Stability
+  *	Purpose:
+    *	Identify consistent performers
+    *	Lower value = stable performance
+*	M*mentum
+  *	Purpose:
+    *	Detect funds are gaining momentum recently
+*	Return Efficiency
+  *	Purpose:
+    *	Measure the return generated per unit cost
+    *	Very useful visual:
       Expense vs Return efficiency.
-•	Cost Category
-  o	Purpose:
-    	Cost distribution visuals
-    	Cost comparison charts
-•	Affordability Score
-  o	Purpose:
-    	Find high-return funds with a low entry barrier.
-•	SIP Friendliness
-  o	Purpose:
-    	Investor accessibility analysis.
-•	Investment Size Category
-  o	Purpose:
-    	Investment accessibility visuals.
-•	NAV Range
-  o	Purpose:
-    	NAV distribution visuals.
-•	Rating Category
-  o	Purpose:
-    	Rating comparison analysis.
-•	Rank by 3Y Return
-•	Rank by Expense Ratio
-•	Rank by Performance Score
-•	Return Variation
-  o	Purpose:
-    	Approximate return consistency.
-    	Lower = stable fund.
-•	Performance Category
-  o	Purpose:
-    	Growth segmentation.
+*	Cost Category
+  *	Purpose:
+    *	Cost distribution visuals
+    *	Cost comparison charts
+*	Affordability Score
+  *	Purpose:
+    *	Find high-return funds with a low entry barrier.
+*	SIP Friendliness
+  *	Purpose:
+    *	Investor accessibility analysis.
+*	Investment Size Category
+  *	Purpose:
+    *	Investment accessibility visuals.
+*	NAV Range
+  *	Purpose:
+    *	NAV distribution visuals.
+*	Rating Category
+  *	Purpose:
+    *	Rating comparis8n analysis.
+*	Rank by 3Y Return
+*	Rank by Expense Ratio
+*	Rank by Performance Score
+*	Return Variation
+  *	Purpose:
+    *	Approximate return consistency.
+    *	Lower = stable fund.
+*	Performance Category
+  *	Purpose:
+    *	Growth segmentation.
 
 Power BI Dashboard Created:
-Page 1 — Dashboard Overview
+Page 1 — Dashboard *verview
 Purpose: High-level summary of the dataset
 KPI Cards (Top Row)
 Show quick insights.
-•	Total Schemes
-•	Average 1Y CAGR
-•	Average 3Y CAGR
-•	Average Expense Ratio
-•	Average NAV
-•	Average Minimum Investment
+*	Total Schemes
+*	Average 1Y CAGR
+*	Average 3Y CAGR
+*	Average Expense Ratio
+*	Average NAV
+*	Average Minimum Investment
 Visuals
 1 Category Distribution
-•	Chart: Pie / Donut
-•	Value: Count of Scheme
-•	Legend: Category
+*	Chart: Pie / Donut
+*	Value: Count of Scheme
+*	Legend: Category
 Shows market share of fund categories.
 ________________________________________
 2 Top 10 Performing Funds (3-Year CAGR)
 Chart: Bar chart
 Columns:
-•	Scheme
-•	CAGR 3 Year
+*	Scheme
+*	CAGR 3 Year
 Sort descending.
 ________________________________________
 2 Average Returns by Category
@@ -103,10 +103,10 @@ Y-axis: Count of Schemes
 ________________________________________
 Filters (Left Side)
 Slicers:
-•	Category
-•	Type
-•	Rating
-•	Benchmark
+*	Categ*ry
+*	Type
+*	Rating
+*	Benchmark
 ________________________________________
 Page 2 — Performance Analysis
 Purpose: Deep dive into returns
@@ -114,11 +114,11 @@ Purpose: Deep dive into returns
 Chart: Clustered bar
 Axis: Scheme
 Values:
-•	CAGR 6M
-•	CAGR 1Y
-•	CAGR 3Y
+*	CAGR 6M
+*	CAGR 1Y
+*	CAGR 3Y
 ________________________________________
-2 Return Consistency
+2 Return C*nsistency
 Chart: Scatter Plot
 X-axis:
 CAGR 6M
@@ -127,8 +127,8 @@ CAGR 3Y
 Legend:
 Category
 This shows:
-•	short-term outperformers
-•	long-term stable funds
+*	short-term outperformers
+*	long-term stable funds
 ________________________________________
 3 Top vs Bottom Performers
 Two visuals:
@@ -141,8 +141,8 @@ Rows:
 Category
 Columns:
 Return Period
-•	6M
-•	1Y
-•	3Y
+*	6M
+*	1Y
+*	3Y
 Values:
 Average CAGR
